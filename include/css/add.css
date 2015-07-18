@@ -1,0 +1,85 @@
+
+#topScreen{
+
+	width:100%;
+	height:275px;
+	margin-top:8%;
+}
+
+
+#regLogo{
+
+	display:block;
+  	background: url("./../img/addNew.png") no-repeat center center; 
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+ 	background-size: contain;
+	height:100%;
+	width:100%;
+}
+
+.btn{
+	margin-top:6%;
+}
+
+.radio{
+
+	height:30px;
+	width:100px;
+}
+label{
+
+}
+
+#wrap{
+
+	width:210px;
+	margin:0px auto;
+}
+
+@media(min-device-width:0px) and (max-device-width:900px){ 
+
+
+ 
+.btn{
+	margin-top:12%;
+}
+
+	#topScreen{
+
+		width:100%;
+		height:555px;
+		margin-top:40%;
+	}
+
+	.middleScreen{
+
+		margin-top:10%;
+	}
+
+	h1{
+		margin-bottom:40px;
+	}
+
+
+	article{
+		margin-bottom:40%;
+	}
+
+	#regLogo{
+
+		height:100%;
+		width:100%;
+	}
+
+
+	#wrap{
+
+		margin-top:10%;
+	}
+
+}
+
+
+

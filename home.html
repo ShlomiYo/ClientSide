@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>The Apartment</title>
+
+		<!-- BootStrap Things Start [:  -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><!-- Latest compiled and minified CSS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- jQuery library -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"><!-- Optional theme -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><!-- Latest compiled and minified JavaScript -->
+		<!-- BootStrap Things END  -->
+
+
+		<script src="./include/js/home.js"></script>
+		<link rel="stylesheet" href="./include/css/basic.css">
+		<link rel="stylesheet" href="./include/css/home.css">
+		<link rel="stylesheet" href="./include/css/circles.css">
+		<meta charset="UTF-8">
+
+	</head>
+	<body>
+
+		<header id="withApartHeader">
+					
+					<a href="./home.html" id="homePage" class="imageBtn"></a><!-- back to home.html -->
+					<a href="./settings.html" id="settingsPage" class="imageBtn"></a><!-- update apartment/ user details -->
+					<a href="./add.html" id="addPage" class="imageBtn"></a><!-- add a new member -->
+
+					<section id="theAddress">Harotem Shalosh, Rishon Le Zion</section>
+							
+		</header>
+
+<!-- if a user dont have apartment i dont want him to see someone who has an apartment options-->
+				<div class="container" id="partA">
+					<main>
+
+							<section id="topScreen">
+								
+								<a href="./createApart.html" id="regLogo"></a>
+
+							</section>
+
+					</main>
+				</div>
+
+
+
+
+<!-- Same in here, if a user have an apartment i dont want him to be able to create another one-->
+
+		
+			<main id="partB">
+<!-- #################################################################################################### -->
+				<section id="leftTopSection">
+					
+					<section id="leftLabelWrapperTop">
+						<label class="innerName" ></label><br>
+						<label class="innerStatus" >בדרך</label>
+					</section>
+
+				</section>
+
+<!-- #################################################################################################### -->
+				<section id="rightTopSection">
+					
+					<section class="labelWrapperRest">
+						<label class="innerName" ></label><br>
+						<label class="innerStatus" >בדרך</label>
+					</section>
+
+				</section> 
+
+<!-- #################################################################################################### -->
+
+					<a href="changeStatus.html"><section id="middleScreenWithApart">
+
+						<h1>עכשיו</h1>
+						<section class="middleWrapper">
+							<label id="mainCircle" class="middleInnerName" ></label><br>
+							<label id="mainCircleLabel">בדירה</label>
+						</section>
+
+					</section></a>
+
+
+<!-- #################################################################################################### -->
+
+				<section id="rightBottomSection">
+				
+					<section class="labelWrapperRest bottomFix">
+						<label class="innerName" ></label><br>
+						<label class="innerStatus" >בדרך</label>
+					</section>
+
+				</section>
+				
+<!-- #################################################################################################### -->
+				<section id="leftBottomSection">
+					
+					<section class="labelWrapperRest bottomFix">
+						<label class="innerName" ></label><br>
+						<label class="innerStatus" >בדרך</label>
+					</section>
+
+				</section>
+
+			</main>
+
+
+	</body>
+</html>

@@ -1,0 +1,104 @@
+
+/* Extra Css file which will create the circles, same code is needed for 3-4 different pages so i decided to split it */
+
+
+	#leftTopSectionA, #leftTopSectionB{
+
+			position:absolute;
+			left:150px;
+			top:350px;
+
+		  	/* cant split those following lines into a class since the ID override it */
+			-webkit-background-size: cover; 
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		 	background-size: cover;
+			display:block;
+			height:250px;
+			width:250px;
+	}
+
+	#rightTopSectionA, #rightTopSectionB{
+
+			position:absolute;
+			right:150px;
+			top:275px;
+			z-index:1000;
+
+		  	/* cant split those following lines into a class since the ID override it */
+			-webkit-background-size: cover; 
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		 	background-size: cover;
+			display:block;
+			height:200px;
+			width:200px;
+	}
+
+	#rightBottomSectionA, #rightBottomSectionB{
+
+
+		  	/* cant split those following lines into a class since the ID override it */
+			-webkit-background-size: cover; 
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		 	background-size: cover;
+			display:block;
+			height:250px;
+			width:250px;
+			float:right;
+			margin-right:250px;
+	}
+
+	#leftBottomSectionB{
+
+
+		  	/* cant split those following lines into a class since the ID override it */
+			-webkit-background-size: cover; 
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		 	background-size: cover;
+			display:block;
+			height:250px;
+			width:250px;
+			float:left;
+			margin-left:25%;
+	}
+
+	
+@media(min-device-width:0px) and (max-device-width:900px){ 
+
+	#leftTopSectionA, #leftTopSectionB{
+
+			left:10px;
+			top:230px;
+			height:400px;
+			width:400px;
+	}
+	#rightTopSectionA, #rightTopSectionB{
+
+			right:10px;
+			top:300px;
+			height:340px;
+			width:340px;
+	}
+	#rightBottomSectionA, #rightBottomSectionB{
+
+
+			margin-top:-30px;
+			height:300px;
+			width:300px;
+			margin-right:0px;
+	}
+	#leftBottomSectionB{
+
+			margin-top:-30px;
+			margin-left:30px;
+			height:200px;
+			width:200px;
+	}
+
+
+}
+
+

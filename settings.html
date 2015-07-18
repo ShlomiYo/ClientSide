@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>The Apartment</title>
+
+		<!-- BootStrap Things Start [:  -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><!-- Latest compiled and minified CSS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- jQuery library -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"><!-- Optional theme -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><!-- Latest compiled and minified JavaScript -->
+		<!-- BootStrap Things END  -->
+
+
+
+		<link rel="stylesheet" href="./include/css/basic.css">
+		<link rel="stylesheet" href="./include/css/settings.css">
+		<script src="./include/js/settings.js"></script>
+		<meta charset="UTF-8">
+
+	</head>
+	<body>
+
+
+		<header id="withApartHeader">
+					
+					<a href="./home.html" id="homePage" class="imageBtn"></a><!-- back to home.html -->
+					<a href="./settings.html" id="settingsPage" class="imageBtn"></a><!-- update apartment/ user details -->
+					<a href="./add.html" id="addPage" class="imageBtn"></a><!-- add a new member -->
+
+					<section id="settings">הגדרות</section>
+							
+		</header>
+
+		<div class="container">
+			<main>
+
+
+					<section id="manageUser">
+						
+						<section  class="fixForm">
+
+							<section class="inpField"><label> שם פרטי:</label><br><input id="a_name" type="text"></section>
+							<section class="inpField"><label> עיר:</label><br><input id="a_city" type="text"></section>
+							<section class="inpField"><label> רחוב:</label><br><input id="a_add" type="text"></section>
+							<button id="submitBtn" type="button" class="btn btn-primary center-block">עדכן</button>
+
+
+							<section class="inpField"><label> הסר חבר:</label><br><input id="removeMem" type="text" ></section>
+							<button id="removeBtn" type="button" class="btn btn-primary center-block">הסר</button>
+
+						</section>
+
+					</section>
+
+
+
+
+					<section id="simpleUser">
+						
+						<section  class="fixForm">
+
+							<section class="inpField"><label> שם פרטי:</label><br><input id="s_name" type="text"></section>
+							<button id="simpleSubmitBtn" type="button" class="btn btn-primary center-block">עדכן</button>
+
+						</section>
+
+					</section>
+
+
+					<button id="leaveApartBtn" type="button" class="btn btn-primary center-block">עזוב דירה</button>
+
+
+			</main>
+		</div>
+
+
+	</body>
+</html>

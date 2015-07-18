@@ -1,0 +1,103 @@
+
+/* Extra Css file which will create the circles, same code is needed for 3-4 different pages so i decided to split it */
+
+
+	#leftTopSection{
+
+			position:absolute;
+			left:150px;
+			top:250px;
+
+		  	/* cant split those following lines into a class since the ID override it */
+			-webkit-background-size: cover; 
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		 	background-size: cover;
+			display:block;
+			height:250px;
+			width:250px;
+	}
+
+	#rightTopSection{
+
+			position:absolute;
+			right:150px;
+			top:275px;
+
+		  	/* cant split those following lines into a class since the ID override it */
+			-webkit-background-size: cover; 
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		 	background-size: cover;
+			display:block;
+			height:200px;
+			width:200px;
+	}
+
+	#leftBottomSection{
+
+
+		  	/* cant split those following lines into a class since the ID override it */
+			-webkit-background-size: cover; 
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		 	background-size: cover;
+			display:block;
+			height:250px;
+			width:250px;
+			float:left;
+	}
+
+	#rightBottomSection{
+
+
+		  	/* cant split those following lines into a class since the ID override it */
+			-webkit-background-size: cover; 
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		 	background-size: cover;
+			display:block;
+			height:250px;
+			width:250px;
+			float:right;
+	}
+
+	
+@media(min-device-width:0px) and (max-device-width:900px){ 
+
+	#leftTopSection{
+
+			left:10px;
+			top:230px;
+			height:400px;
+			width:400px;
+	}
+	#rightTopSection{
+
+			right:10px;
+			top:300px;
+			height:350px;
+			width:350px;
+	}
+
+
+	#leftBottomSection{
+
+			margin-top:-30px;
+			height:350px;
+			width:350px;
+	}
+	#rightBottomSection{
+
+
+			margin-top:-30px;
+			height:350px;
+			width:350px;
+	}
+
+
+}
+
+
+
+

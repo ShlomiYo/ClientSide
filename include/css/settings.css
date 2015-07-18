@@ -1,0 +1,149 @@
+.container{
+	
+	margin-top:5%;
+}
+	
+body{
+
+	background:none;
+}
+
+#manageUser{
+
+	margin-top:50px;
+}
+#simpleUser{
+
+	margin-top:10%;
+}
+
+	#settings{
+
+		float:right;
+		padding-right:10px;
+		height:100px;
+		font-size:45px;
+		line-height:100px;
+	}
+
+
+.inpField{
+
+	font-size:50px;
+}
+
+.inpField input{
+
+	color:black;
+	border:solid 1px grey;
+	float:left;
+	font-size:35px;
+
+}
+
+
+label{
+
+	float:right;
+	color:black;
+}
+
+#submitBtn{
+
+	position:relative;
+	top:30px;
+	width:100%;
+	margin-bottom:10%;
+}
+#leaveApartBtn{
+
+	position:relative;
+	top:50px;
+	width:100%;
+	background-color: #ea6153;
+}
+
+#removeBtn{
+
+	position:relative;
+	top:30px;
+	width:100%;
+	margin-bottom:10%;
+}
+
+#simpleSubmitBtn{
+
+	position:relative;
+	top:30px;
+	width:100%;
+	margin-bottom:10%;
+}
+
+
+@media(min-device-width:0px) and (max-device-width:900px){ 
+	
+
+	#simpleUser{
+
+		margin-top:40%;
+	}
+
+	#simpleSubmitBtn{
+
+		margin-bottom:13%;
+	}
+
+	#removeBtn{
+
+		font-size:65px;
+		margin-bottom:13%;
+	}
+
+	#submitBtn{
+
+		margin-bottom:13%;
+	}
+	#leaveApartBtn{
+
+		top:50px;
+		font-size:65px;
+		margin-bottom:13%;
+	}
+
+	.inpField input{
+
+		font-size:50px;
+		height:120px;
+	}
+
+	#submitBtn{
+
+		font-size:55px;
+	}
+
+	label{
+
+		height:140px;
+	}
+
+	.inpField{
+
+		line-height:120px;
+		font-size:70px;
+	}
+ /* only have one of each of those in this page*/
+	#settings{
+
+		float:right;
+		padding-right:10px;
+		height:200px;
+		font-size:65px;
+		line-height:200px;
+	}
+
+
+
+}
+
+
+

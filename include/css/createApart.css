@@ -1,0 +1,65 @@
+
+#topScreen{
+
+	width:100%;
+	height:155px;
+	margin-top:4%;
+}
+
+
+#regLogo{
+
+	display:block;
+  	background: url("./../img/newApartS.png") no-repeat center center; 
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+ 	background-size: contain;
+	height:100%;
+	width:100%;
+}
+
+.btn{
+	margin-top:5%;
+}
+
+
+
+@media(min-device-width:0px) and (max-device-width:900px){ 
+
+
+	 
+	.btn{
+		margin-top:10%;
+	}
+
+	#topScreen{
+
+		width:100%;
+		height:300px;
+		margin-top:20%;
+	}
+
+	.middleScreen{
+
+		margin-top:10%;
+	}
+
+	h1{
+		margin-bottom:40px;
+	}
+
+
+	article{
+		margin-bottom:40%;
+	}
+
+	#regLogo{
+
+		height:100%;
+		width:100%;
+	}
+
+}
+
+

@@ -1,0 +1,80 @@
+
+
+
+
+
+
+	#leftTopSectionA{
+
+		  	background: url("./../img/omw.png") no-repeat center center;
+	}
+
+	#rightTopSectionA{
+
+		  	background: url("./../img/imHere.png") no-repeat center center;
+	}
+
+	#rightBottomSectionA{
+
+		  	background: url("./../img/imOut.png") no-repeat center center;
+	}
+
+
+
+
+
+	#leftTopSectionB{
+
+		  	background: url("./../img/plus3.png") no-repeat center center;
+	}
+
+	#rightTopSectionB{
+
+		  	background: url("./../img/plus2.png") no-repeat center center;
+	}
+
+	#rightBottomSectionB{
+
+		  	background: url("./../img/plus1.png") no-repeat center center;
+	}
+
+	#leftBottomSectionB{
+
+			height:250px;
+			width:250px;
+		  	background: url("./../img/plus0.png") no-repeat center center;
+	}
+
+
+
+
+
+#middleScreenWithApart{
+
+		width:100%;
+		height:400px;
+		display:block;
+	  	background: url("./../img/inside3Active.png") no-repeat center center; 
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+	 	background-size: contain;
+		margin-top:100px;
+}
+
+
+@media(min-device-width:0px) and (max-device-width:900px){ 
+
+
+
+
+	#middleScreenWithApart{
+
+		margin-top:400px;
+		width:100%;
+		height:840px;
+	}
+
+
+
+}

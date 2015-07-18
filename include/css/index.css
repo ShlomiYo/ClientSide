@@ -1,0 +1,28 @@
+
+
+	article{
+
+		margin-top:5%;
+	}
+
+
+
+
+
+@media(min-device-width:0px) and (max-device-width:900px){ 
+
+
+ /* only have one of each of those in this page*/
+
+
+	h1{
+		margin-bottom:40%;
+	}
+
+
+	article{
+		margin-bottom:40px;
+	}
+
+
+}
