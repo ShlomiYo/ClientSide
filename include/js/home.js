@@ -1,5 +1,5 @@
 
-
+/*
 window.onload = function() {  // i needed to reload the page since i updated data on the mongo and it is needs the refresh on this page
     if(!window.location.hash) {
         window.location = window.location + '#loaded';
@@ -7,7 +7,7 @@ window.onload = function() {  // i needed to reload the page since i updated dat
     }
 }
 
-
+*/
 
 
  $( document ).ready(function() {
@@ -358,19 +358,6 @@ window.onload = function() {  // i needed to reload the page since i updated dat
 				}
 
 			});
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
