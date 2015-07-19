@@ -84,7 +84,8 @@ window.onload = function() {  // i needed to reload the page since i updated dat
 									if(data.apartInfo.gStatusArr[i] == "A"){insideLoop++;} // insideLoop is the number of people inside the apart
 								}
 
-								
+								localStorage.setItem("apartAmount", insideLoop); // The amount of users at the moment which are inside the apartment
+
 
 
 								if(insideLoop >= 3){

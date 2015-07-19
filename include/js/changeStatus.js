@@ -6,6 +6,9 @@
 	var partA = document.getElementById('partA');
 	var partB = document.getElementById('partB');
 
+
+	var middleScreenWithApart = document.getElementById('middleScreenWithApart');
+
 	partB.style.display = "none"; // this will be displayed only if the user got not apartment
 
 
@@ -48,6 +51,13 @@
 
 
 	leftTopSectionB.onclick = rightTopSectionB.onclick = rightBottomSectionB.onclick = leftBottomSectionB.onclick = updateServer;
+
+		if( localStorage.getItem("apartAmount") == 1){ middleScreenWithApart.style.background = "url('./include/img/inside1Active.png') no-repeat center center"; middleScreenWithApart.style.backgroundSize  =  "contain"; }
+		
+		else if( localStorage.getItem("apartAmount") == 2){ middleScreenWithApart.style.background = "url('./include/img/inside2Active.png') no-repeat center center"; middleScreenWithApart.style.backgroundSize  =  "contain"; }
+		
+		else if( localStorage.getItem("apartAmount") >= 3){ middleScreenWithApart.style.background = "url('./include/img/inside3Active.png') no-repeat center center"; middleScreenWithApart.style.backgroundSize  =  "contain"; }
+		
 
 
 	function updateServer(){
